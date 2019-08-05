@@ -100,7 +100,7 @@ public class LoginActivity extends BaseActivity {
 
 
     private void startNextActivity() {
-        startActivity(new Intent(getApplicationContext(), AdminActivity.class));
+        startActivity(new Intent(getApplicationContext(), FetchingHolidayDealActivity.class));
         finish();
     }
 
